@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Example</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    .p-blue {
+      padding: 20px;
+      background-color: #007bff;
+    }
+    .p-grey {
+      padding: 20px;
+      background-color: #6c757d;
+    }
+    .p-green {
+      padding: 20px;
+      background-color: #28a745;
+    }
+    .form-color {
+      background-color: #a1a1a1;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Brand</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Shopping Cart - Cart</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  
+    .p-grey {
+      padding: 25px;
+      background-color: #6c757d;
+    }
+    .p-green {
+      padding: 20px;
+      background-color: #28a745;
+    }
+    .form-color {
+      background-color: #a2c2f2;
+      padding: 2px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Brand</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Cart <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    </form>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <h1>Shopping Cart</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Item</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Total</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Product 1</td>
+        <td>$10.00</td>
+        <td>1</td>
+        <td>$10.00</td>
+        <td><button class="btn btn-danger">Remove</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <h2>Buttons</h2>
+  <button type="button" class="btn btn-primary mr-2 mb-2 p-blue">Primary</button>
+  <button type="button" class="btn btn-secondary mr-2 mb-2 p-grey">Secondary</button>
+  <button type="button" class="btn btn-success mr-2 mb-2 p-green">Success</button>
+  <button type="button" class="btn btn-danger mr-2 mb-2 p-blue">Danger</button>
+  <button type="button" class="btn btn-warning mr-2 mb-2 p-grey">Warning</button>
+  <button type="button" class="btn btn-info mr-2 mb-2 p-green">Info</button>
+  <button type="button" class="btn btn-dark mr-2 mb-2 p-blue">Dark</button>
+</div>
+
+<div class="container mt-4">
+  <h2>Icons</h2>
+  <i class="bi bi-heart-fill text-danger" style="font-size: 3rem;"></i>
+  <i class="bi bi-star-fill text-warning" style="font-size: 3rem;"></i>
+  <i class="bi bi-bookmark-fill text-primary" style="font-size: 3rem;"></i>
+</div>
+
+<div class="container mt-4">
+  <h2>Forms</h2>
+  <form class="form-color mb-4">
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="text-dark">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1" class="text-dark">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label text-dark" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-dark mt-2">Submit</button>
+  </form>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
